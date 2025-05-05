@@ -13,10 +13,12 @@ White: #FFF
     padding:0;
 }
 
+
+
 #logonav {
-    width: 150px;
-    height: 45px;
-    margin: 10px 20px;
+    width: 320px;
+    height: 95px;
+    margin: 20px 50px;
     
 }
 
@@ -28,23 +30,52 @@ White: #FFF
 }
 
 .linksnav a {
-    margin: 0 8px;
+    margin: 0 20px;
     text-decoration: none;
     color: #1A1A1A ;
+    font-size: 34px;
+    font-family: 'Lucida Sans',sans-serif;
+    font-weight: lighter;
+    
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 100px;
     color: #FFF;
-    margin-bottom: 30px;
+    margin: 20px;
+    font-family: 'Lucida Sans',sans-serif;
 }
 
 .header {
-    padding-top: 100px;
+    padding: 250px;
     text-align: center;
     color: #FFF;
     background-image: url(../images/landing.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .txthead {
+    font-size: 30px;
+    width: 700px;
+}
+
+.infobox img{
+    width: 40%;
+}
+
+#secondhead {
+    text-align: center;
+    color:#1A1A1A;
+    font-size: 45px;
+    padding: 30px;
+
+.infobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
