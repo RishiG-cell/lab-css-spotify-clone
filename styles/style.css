@@ -68,14 +68,16 @@ h1 {
     width: 40%;
 }
 
+.infobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
 #secondhead {
     text-align: center;
     color:#1A1A1A;
     font-size: 45px;
     padding: 30px;
 
-.infobox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
