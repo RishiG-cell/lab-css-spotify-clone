@@ -79,3 +79,29 @@ ul {
 .post img {
   width: 100px;
 }
+
+.footer {
+  background-color: #00b172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 0 20px;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer img {
+  margin: 40px;
+}
+
+.footer h3 {
+  margin: 20px 0;
+}
+
+.footer h2 {
+  border-bottom: 3px #fff solid;
+  padding-bottom: 10px;
+}
